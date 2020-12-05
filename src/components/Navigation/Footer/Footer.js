@@ -3,16 +3,13 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className="app-footer">
-            <footer>
-                <p>
-                    <b>Developed by: </b>
-                    <a href="https://github.com/akshaymande/SpaceX-Launch-Programs">
-                        Akshaykumar Mande
-                    </a>
-                </p>
-            </footer>
-        </div >
+        <footer className="app-footer">
+            <p><b>Developed by: </b>
+                <a href="https://github.com/akshaymande/SpaceX-Launch-Programs">
+                    Akshaykumar Mande
+                 </a>
+            </p>
+        </footer>
     )
 }
-export default Footer;
+export default Footer

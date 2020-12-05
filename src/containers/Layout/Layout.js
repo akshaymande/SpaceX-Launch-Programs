@@ -1,17 +1,23 @@
-import React, { Component } from 'react'
-import Footer from '../../components/Navigation/Footer/Footer'
+import React from 'react'
 import Header from '../../components/Navigation/Header/Header'
+import Footer from '../../components/Navigation/Footer/Footer'
+import './Layout.css'
 
-class Layout extends Component {
+class Layout extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
+            <>
                 <Header />
-                {this.props.children}
+                {
+                    <main className="main-container">
+                        {this.props.children}
+                    </main>
+                }
                 <Footer />
-            </React.Fragment>
+            </>
         )
     }
 }
+
 export default Layout

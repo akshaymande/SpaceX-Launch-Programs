@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+
 const Header = () => {
     return (
         <header className="app-header">
@@ -7,5 +8,4 @@ const Header = () => {
         </header>
     )
 }
-
-export default Header;
+export default Header
